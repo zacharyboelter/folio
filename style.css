@@ -178,6 +178,7 @@ header .hero-image .photo-bg {
 
 .tech-container {
     display:inline-flexbox;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     margin: 30px 10px;
@@ -228,7 +229,8 @@ header .hero-image .photo-bg {
 }
 
 .project-section .project-container img {
-    height: 45px;
+    height: 200px;
+}
 
 
 

@@ -37,6 +37,16 @@ nav .logo {
     font-weight: 800;
     font-size: 54px;
     color: #1D3557;
+    text-decoration: none;
+}
+
+nav .logo-home {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54px;
+    color: #1D3557;
+    text-decoration: none;
 }
 
 .nav-items li {
@@ -149,6 +159,41 @@ header .hero-image .photo-bg {
     background: #E63946;
     transform: rotate(-5.88deg);
 }
+
+/* Tech Section */
+
+.tech-section {
+    padding: 32px 50px;
+
+}
+
+.tech-section h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-container {
+    display:inline-flexbox;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 10px;
+}
+
+.about-content {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.resume-link {
+    color: #1D3557;
+    background: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+
 /* Hidden Items */
 
 .search-box {

@@ -209,7 +209,6 @@ header .hero-image .photo-bg {
 /* Project Section */
 .project-section {
     padding: 32px 50px;
-
 }
 
 .project-section h2 {
@@ -222,7 +221,7 @@ header .hero-image .photo-bg {
 
 
 .project-container {
-    display:inline-flexbox;
+    display:flexbox;
     justify-content: space-between;
     align-items: center;
     margin: 30px 10px;
@@ -230,7 +229,10 @@ header .hero-image .photo-bg {
 
 .project-section .project-container img {
     height: 200px;
-    position: relative;
+    /* position: relative; */
+    flex: 1 1 auto;
+    flex-direction: column;
+
 }
 
 input[type=text], textarea {
